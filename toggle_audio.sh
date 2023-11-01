@@ -27,13 +27,4 @@ toggle_audio() {
 # Specify the icon path (replace with your preferred icon path)
 icon_path="/home/rafa/.icons/audio-headphones.png"
 
-# Run the system tray
-# while true; do
-#     yad --notification \
-#         --listen \
-#         --image="$icon_path" \
-#         --command="toggle_audio" \
-#         <<< "tooltip: Click to toggle audio output"
-# done
-
 toggle_audio
